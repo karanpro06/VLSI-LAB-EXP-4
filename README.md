@@ -30,7 +30,7 @@ STEP:11  On the board, by giving required input, the LEDs starts to glow light, 
 
 ### Verilog Code:
 
-```
+~~~
 module srff(s,r,clk,rst,q);
 input s,r,clk,rst;
 output reg q;
@@ -49,7 +49,7 @@ endcase
 end
 end
 endmodule
-```
+~~~
 
 ### Output:
 
@@ -59,12 +59,13 @@ endmodule
 ## JK FLIPFLOP:
 
 ### Logic Diagram:
+![image](https://github.com/karanpro06/VLSI-LAB-EXP-4/assets/119782103/61ba7f5a-accd-496d-a65b-ebef34301d75)
 
 ![image](https://github.com/navaneethans/VLSI-LAB-EXP-4/assets/6987778/1510e030-4ddc-42b1-88ce-d00f6f0dc7e6)
 
 ### Verilog Code:
 
-```
+~~~
 module jkff(j,k,clk,rst,q);
 input j,k,clk,rst;
 output reg q;
@@ -83,7 +84,7 @@ endcase
 end
 end
 endmodule
-```
+~~~
 
 ### Output:
 
@@ -92,12 +93,13 @@ endmodule
 ## T FLIPFLOP:
 
 ### Logic Diagram:
+![image](https://github.com/karanpro06/VLSI-LAB-EXP-4/assets/119782103/43dc6827-07e1-4e92-8e8a-ecc22ce0d6a3)
 
 ![image](https://github.com/navaneethans/VLSI-LAB-EXP-4/assets/6987778/7a020379-efb1-4104-85ee-439d660baa08)
 
 ### Verilog Code:
 
-```
+~~~
 module tff(clk,rst,t,q);
 input clk,rst,t;
 output reg q;
@@ -111,7 +113,7 @@ else
 q=~q;
 end
 endmodule
-```
+~~~
 
 ### Output:
 
@@ -121,12 +123,13 @@ endmodule
 ## D FLIPFLOP:
 
 ### Logic Diagram:
+![image](https://github.com/karanpro06/VLSI-LAB-EXP-4/assets/119782103/8e827351-3ef8-4a51-9379-1e3baae4baae)
 
 ![image](https://github.com/navaneethans/VLSI-LAB-EXP-4/assets/6987778/dda843c5-f0a0-4b51-93a2-eaa4b7fa8aa0)
 
 ### Verilog Code:
 
-```
+~~~
 module dff(d,clk,rst,q);
 input d,clk,rst;
 output reg q;
@@ -138,7 +141,7 @@ else
 q=d;
 end
 endmodule
-```
+~~~
 
 ### Output:
 
@@ -146,20 +149,17 @@ endmodule
 
 ## COUNTER:
 
-### Logic Diagram:
-
-![image](https://github.com/navaneethans/VLSI-LAB-EXP-4/assets/6987778/a1fc5f68-aafb-49a1-93d2-779529f525fa)
-
 ## Updown Counter:
 
 ### Logic Diagram:
 
 ![image](https://github.com/Dhinesh0024/VLSI-LAB-EXP-4/assets/160568927/dd12585a-157f-4b6f-a0c3-b421bb52434c)
 
+![image](https://github.com/navaneethans/VLSI-LAB-EXP-4/assets/6987778/a1fc5f68-aafb-49a1-93d2-779529f525fa)
 
 ### Verilog Code:
 
-```
+~~~
 module udc(clk,rst,updown,out);
 input clk,rst,updown;
 output reg [3:0]out;
@@ -173,7 +173,7 @@ else
 out=out-1;
 end
 endmodule
-```
+~~~
 
 ### Output:
 
@@ -188,7 +188,7 @@ endmodule
 
 ### Verilog Code:
 
-```
+~~~
 module mod10(clk,rst,out);
 input clk,rst;
 output reg [3:0]out;
@@ -200,7 +200,7 @@ else
 out=out+1;
 end
 endmodule
-```
+~~~
 
 ### Output:
 
@@ -219,7 +219,7 @@ endmodule
 
 ### Verilog Code:
 
-```
+~~~
 module tff(q,clk,rst);
 input clk,rst;
 output q;
@@ -249,7 +249,7 @@ tff tf2(q[1],q[0],rst);
 tff tf3(q[2],q[1],rst);
 tff tf4(q[3],q[2],rst);
 endmodule
-```
+~~~
 
 ### Output:
 
