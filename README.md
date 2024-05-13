@@ -3,6 +3,7 @@
 **AIM:**
 
  To simulate and synthesis SR, JK, T, D - FLIPFLOP, COUNTER DESIGN using Xilinx ISE.
+ 
 **APPARATUS REQUIRED:** 
 
 VIVADO 2023.2
