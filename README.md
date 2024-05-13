@@ -2,7 +2,7 @@
 
 **AIM:**
 
- To simulate and synthesis SR, JK, T, D - FLIPFLOP, COUNTER DESIGN using Xilinx ISE.
+ To simulate and synthesis SR, JK, T, D - FLIPFLOP, COUNTER DESIGN using Vivado 2023.2.
  
 **APPARATUS REQUIRED:** 
 
@@ -268,6 +268,6 @@ endmodule
 
 **RESULT:**
 
- Hence SR, JK, T, D - FLIPFLOP, COUNTER DESIGN are simulated and synthesised using Xilinx ISE.
+ Hence SR, JK, T, D - FLIPFLOP, COUNTER DESIGN are simulated and synthesised using Vivado 2023.2.
 
 
